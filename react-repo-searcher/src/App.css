@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+  background-color: gainsboro;
+  color: #222c4f;
+  font-weight: 400;
+  font-family: "Poppins";
+}
+
+ul{
+  overflow-y: scroll;
+  overflow-x: hidden;
+  max-height: 440px;
+}
+
+ul::-webkit-scrollbar {
+  display: none;
+}
+
+.listed-items {
+  font-size: 16px;
+  color: #222c4f;
+  font-weight: 600;
+  font-family: "Poppins";
+  text-decoration: none;
+}
+
+li{
+  display: flex;
+  margin: 1em 0 0 1em;
+  list-style-type: none;
+ 
+}
+
+input[type=text]{
+  display: block;
+  width: 386px;
+  height: 62px;
+  border-radius: 5px;
+  margin: auto;
+  background-color: white;
+  border: 1px solid #cad1e5;
+  font-size: 16px;
+  color: #979eb5;
+  font-weight: 500;
+  font-family: "Poppins";
+}
+
+
+.title{
+  font-size: 26px;
+  color: #222c4f;
+  font-weight: 400;
+  font-family: "Poppins";
+  margin: 1em 0 1em 1.4em;
+}
+
+.lock{
+  width: 24px;
+  margin-right: 1em;
+  height: 24px;
+}
+
+.wrapper{
+  margin: auto;
+  position: relative;
+  width: 466px;
+  height: 726px;
+  background-color: #ffffff;
+  padding-top: 1px;
+}
+
+.create-org-button{
+  border: none;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  background-color: #8C84EB;
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 500;
+  font-family: "Poppins";
+  height:110px;
+  width: 466px; 
+  cursor: pointer;
+}
+
+.more{
+  font-size: 16px;
+  color: #8a82ef;
+  font-weight: 500;
+  font-family: "Poppins";
+  text-decoration: underline !important;
+  margin-left: 2em;
+}

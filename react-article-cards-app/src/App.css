@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap');
+@import url("https://use.typekit.net/pxk8ctm.css");
+body{
+  background-color: gainsboro;
+  font-family: "Merriweather";
+  color: #1F1D1D;
+  margin: 10px;
+}
+
+.card-1-wrapper{
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 20px;
+  width: 750px;
+  height: 230px;
+  margin: 1em;
+}
+
+.card-1-image-center{
+  display: block;
+  float: left;
+  height: 230px;
+  position: relative;
+}
+
+.card-1-image{
+  margin-left: 1.1em;
+  border: 1px;
+  border-radius: 15px;
+  position: absolute;
+  background-color: lightblue;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.card-1-info{
+  display: inline;
+  float: left;
+  margin-left: 16em;
+}
+
+
+.card-1-title{
+  width: 400px;
+  margin: 3em  0 0 0 ;
+  font-size: 22px;
+  font-weight: 900;
+  font-family: "Merriweather"; 
+}
+
+.card-1-author, .card-1-author a{
+  font-size: 16px;
+  font-family: "Muli";
+  font-size: 14px;
+  color: #1a1b38;
+  margin-top: 1.5em;
+}
+
+.bookmark-icon{
+  width: 35px;
+  height: 35px;
+  margin: 1.5em;
+}
+
+/*Card 2*/
+
+.card-2-wrapper{
+  width: 465px;
+  height: 700px;
+  border-radius: 25px;
+  background-color: white;
+  margin: 1em;
+  padding-top: 20px;
+}
+
+.card-2-image{
+  display: block;
+  margin: auto;
+  border-radius: 15px;
+}
+
+.card-2-info{
+  text-align: center;
+  margin-top: 2.5em;
+}
+
+.card-2-title{
+  font-size: 26px;
+  line-height: 32px;
+  color: #1a1b38;
+  font-weight: 900;
+  font-family: "Merriweather";
+  text-align: center;
+}
+
+.card-2-sample{
+  width: 350px;
+  margin:auto;
+  font-size: 18px;
+  line-height: 28px;
+  color: #1a1b38;
+  font-family: "Muli";
+}
+
+.card-2-author, .card-2-author a{
+  font-size: 16px;
+  color: #1a1b38;
+  font-family: "Muli";
+  margin-top: 2em;
+}
+
+.card-2-button{
+  width: 278px;
+  height: 72px;
+  border-radius: 10px;
+  background-color: #0f1516;
+  color: white;
+  margin-top: 2em;
+  font-family: "Muli";
+  font-size: 16px;
+}
+
+/*Card 3*/
+
+.card-3-wrapper{
+  width: 832px;
+  height: 493px;
+  border-radius: 27px;
+  margin: 10px;
+  padding-top: 47px;
+  background-color: #ffffff;
+}
+
+.card-3-image-container{
+  display: flex;
+  justify-content: center;
+  width: 832px;
+  max-height: 197px;
+}
+
+.card-3-image-1{
+  margin-right: 1em;
+  float: left;
+  border-radius: 15px 0 0 15px;
+  background-color: lightgray;
+}
+
+.card-3-image-2{
+  float: left;  
+  background-color: lightgray;
+}
+
+.card-3-image-3{
+  margin-left: 1em;
+  border-radius: 0 15px 15px 0;
+  background-color: lightgray;
+}
+
+.card-3-info{
+  margin-left: 3em;
+}
+
+.card-3-title{
+  display: inline-block;
+  font-size: 26px;
+  line-height: 32px;
+  color: #1a1b38;
+  font-weight: 900;
+  font-family: "Merriweather";
+  margin: 50px 0 23px 0;
+}
+
+.card-3-sample{
+  width: 494px;
+  height: 84px;
+  font-size: 18px;
+  line-height: 28px;
+  color: #1a1b38;
+  font-family: "Muli";
+  margin: 0px;
+}
+
+.card-3-author{
+  font-size: 16px;
+  color: #1a1b38;
+  margin: 25px 0 0 0;
+  font-family: "Muli";
+}

@@ -1,0 +1,110 @@
+
+@import url("https://use.typekit.net/pxk8ctm.css");
+body{
+  background-color:#EBEBF3;
+  font-size: 16px;
+  color: #20253c;
+  font-weight: 700;
+  font-family: "Muli";
+}
+
+h2{
+  margin: 0;
+}
+
+.button-wrapper{
+  display: inline-block;
+  margin: 0 auto;
+  width: 1000px;
+  height: 150px;
+}
+
+
+.button{
+  border: 1px solid #5667ff;
+  border-radius: 5px; 
+  color: white;
+  font-family: muli, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 2em 1.5em 2em 1.5em;
+  background-color: #5667ff;;
+  margin: 3em;
+  width: 300px;
+
+}
+
+.wrapper{
+  border: 20px solid white;
+  border-radius: 30px;
+  min-width: 900px;
+  max-width: 1000px;
+  height:550px;
+  margin: 0 auto;
+  margin-top: 3rem;
+  -webkit-box-shadow: 0px 10px 36px -4px rgba(0,0,0,0.51);
+  -moz-box-shadow: 0px 10px 36px -4px rgba(0,0,0,0.51);
+  box-shadow: 0px 10px 36px -4px rgba(0,0,0,0.51);  
+}
+
+
+.title{
+  padding: 15px 15px 15px 25px;
+}
+
+.content{
+  margin: 0 auto;
+}
+
+.info{
+  display: inline-block;  
+  padding: 1em 2.5em 1em 2.5em;
+  min-width: 250px;
+}
+
+.output{
+    margin-top: 2em;
+    padding: 1em 3em 1em 3em;
+    float: left; 
+    min-width: 250px; 
+}
+
+.valid::before{
+  content: "$";
+}
+
+input[type=range]{
+  -webkit-appearance: none;
+  height: 10px;
+  width: 200px;
+  border: 1px solid #909bff;
+  border-radius: 5px;
+  background-color: #909bff;
+}
+
+input[type=range]:focus{
+  outline: none;
+}
+
+input[type=range]::-webkit-slider-thumb {
+
+  width: 20px;
+  height: 20px;
+  background: #ffffff;
+  border: 5.3px solid #4A56C2;
+  border-radius: 100px;
+  cursor: pointer;
+  -webkit-appearance: none;
+}
+
+
+
+/*TODO: Use one of the selectors from https://stackoverflow.com/a/20541859/7077589 and figure out
+how to remove the virtical space around the range input in IE*/
+@supports (-ms-ime-align:auto) {
+  /* Pre-Chromium Edge only styles, selector taken from hhttps://stackoverflow.com/a/32202953/7077589 */
+  input[type=range] {
+    margin: 0;
+    /*Edge starts the margin from the thumb, not the track as other browsers do*/
+  }
+}
